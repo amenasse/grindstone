@@ -33,3 +33,5 @@ django-autoslug==1.7.2
 pytz==2015.2
 
 # Your custom requirements go here
+django-vanilla-views==1.0.4
+django-bootstrap3==5.4.0

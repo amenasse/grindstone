@@ -16,6 +16,7 @@ urlpatterns = [
 
     # User management
     url(r'^users/', include("grindstone.users.urls", namespace="users")),
+    url(r'^tasks/', include("grindstone.tasks.urls", namespace="tasks")),
     url(r'^accounts/', include('allauth.urls')),
 
     # Your stuff: custom urls includes go here
